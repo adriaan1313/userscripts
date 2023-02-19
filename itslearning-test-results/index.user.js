@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Itslearning Detailed Results Tab
-// @namespace    https://github.com/adriaan1313/userscripts/itslearning-test-results
-// @version      0.1
+// @namespace    https://github.com/adriaan1313/userscripts/tree/master/itslearning-test-results
+// @version      0.2
 // @description  Show Detailed Results Tab, even when the teacher hides it!
 // @author       Bunnygamers
 // @match        https://*.itslearning.com/Ntt/EditTool/ViewTestResults.aspx?*
