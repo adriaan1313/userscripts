@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Default following tab Twitter.
-// @namespace    https://github.com/adriaan1313/userscripts/twitter-tabblad
-// @version      0.1
+// @namespace    https://github.com/adriaan1313/userscripts/tree/master/twitter-tabblad
+// @version      0.2
 // @description  By default go to the "following" tab on the Twitter home page
 // @author       Bunnygamers
 // @match        https://twitter.com/home
