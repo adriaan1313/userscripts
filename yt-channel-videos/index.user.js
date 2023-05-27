@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Default channel videos tab
 // @namespace    https://github.com/adriaan1313/userscripts/tree/master/yt-channel-videos
-// @version      0.1
+// @version      0.2
 // @description  Make the "videos" section of a youtube channel page default to Latest again after youtube made a "For You" bit
 // @author       Bunnygamers
 // @match        https://www.youtube.com/*/videos
@@ -16,5 +16,5 @@
 
 (function() {
     'use strict';
-    waitForKeyElements("yt-chip-cloud-chip-renderer[role=tab]", ()=>document.querySelectorAll("yt-chip-cloud-chip-renderer[role=tab]")[0].click());
+    waitForKeyElements("yt-chip-cloud-chip-renderer[role=tab]", ()=>document.querySelectorAll("yt-chip-cloud-chip-renderer[role=tab]")[0].click(), false);
 })();
